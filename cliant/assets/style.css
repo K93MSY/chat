@@ -1,0 +1,101 @@
+main{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: calc(100% - 80px);
+    width: 600px;
+    overflow-y: auto;
+    overflow-x: none;
+    top: 0;
+    border: 1px solid rgba(0, 0, 0, 0.54);
+    background: #a434ff;
+}
+
+.me{
+    display: block;
+    text-align: right;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #0000002a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.my{
+    margin-right: 5px;
+    word-break: break-all;
+    display: inline-flex;
+    text-align: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 400px;
+    border-radius: 15px;
+    background: #00ff88;
+}
+
+.me p{
+    text-align: right;
+    word-break: break-all;
+}
+
+.you{
+    display: block;
+    text-align: left;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #0000002a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.you p{
+    text-align: left;
+    word-break: break-all;
+}
+
+.your{
+    margin-left: 5px;
+    word-break: break-all;
+    display: inline-flex;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 400px;
+    border-radius: 15px;
+    background: #00d0ff;
+}
+
+nav{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    margin: auto;
+    width: 600px;
+    height: 62px;
+}
+
+#sentence{
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    resize: none;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 450px;
+    overflow:hidden;
+    outline: none;
+}
+
+#sendmsg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70px;
+    height: 70%;
+}
